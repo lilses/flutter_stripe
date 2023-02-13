@@ -144,7 +144,7 @@ class PaymentElementState extends State<PaymentElement> {
   }
 
   js.ElementsCreateOptions createOptions() {
-    final appearance = js.ElementAppareance(theme: js.ElementTheme.night);
+    final appearance = js.ElementAppareance(theme: js.ElementTheme.stripe);
     return js.ElementsCreateOptions(
       clientSecret: widget.clientSecret,
       appearance: appearance,
